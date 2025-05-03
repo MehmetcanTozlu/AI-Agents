@@ -10,7 +10,7 @@ from smolagents import (
 
 
 model = TransformersModel(
-    model_id="/Qwen/Qwen2.5-Coder-32B-Instruct",
+    model_id="Qwen/Qwen2.5-Coder-32B-Instruct",
     max_new_tokens=8192,
     device_map="cuda"
 )
