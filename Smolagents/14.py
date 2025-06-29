@@ -1,5 +1,5 @@
 import os
-os.environ["SERPER_API_KEY"] = "02469f0bc04f8227d871aa9b06623ecea5ef78cfa9c31bedebf670d53847073b"
+os.environ["SERPER_API_KEY"] = "YOUR_TOKEN"
 import math
 from PIL import Image
 from typing import Optional, Tuple
@@ -70,7 +70,7 @@ def calculate_cargo_travel_time(
 
 
 model = TransformersModel(
-    model_id="/home/wrusr/genai_workspace/transformers_entry_env/workspace/models/Llama-3.1-8B-Instruct",
+    model_id="model_from_local_path",
     max_new_tokens=8192,
     device_map="cuda",
 )
