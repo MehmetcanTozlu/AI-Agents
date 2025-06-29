@@ -68,7 +68,7 @@ party_planning_retriever = PartyPlanningRetrieverTool(docs_processed)
 
 # Initialize the agent
 model = TransformersModel(
-    model_id="Qwen/Qwen2.5-Coder-32B-Instruct",
+    model_id="model_from_local_path",
     max_new_tokens=8192,
     device_map="cuda",
 )
